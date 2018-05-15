@@ -1,0 +1,11 @@
+create database middle;
+use middle;
+create table user{
+	id varchar(20) primarykey;
+	pwd varchar(20) not null;
+}
+create table paihang{
+	id varchar(20);
+	score int not null;
+	FOREIGN KEY (id) REFERENCES user(id);
+}
