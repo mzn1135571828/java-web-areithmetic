@@ -1,0 +1,31 @@
+#contain a{
+	text-decoration: none;
+	display: inline-block;
+	
+	width: 100px;
+	height: 40px;
+	
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+	background-color:rgba(52,52,52,.8);
+	
+	text-align: center;
+
+	border-radius: 10px;
+	margin: 50px 0 0 50px;
+}
+#contain a:hover{
+	background-color:rgba(52,52,52,1);
+}
+#contain h3{
+	font-weight: bold;
+	font-size: 20px;
+	color: whitesmoke;
+	text-align: center;
+	padding-top: 20px;
+}
+#contain span{
+	color: darkorange;
+}
