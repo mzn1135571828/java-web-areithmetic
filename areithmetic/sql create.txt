@@ -1,10 +1,10 @@
-create database middle;
-use middle;
+create database areithmetic;
+use areithmetic;
 create table user{
 	id varchar(20) primarykey;
 	pwd varchar(20) not null;
 }
-create table paihang{
+create table rank{
 	id varchar(20);
 	score int not null;
 	FOREIGN KEY (id) REFERENCES user(id);
